@@ -130,6 +130,11 @@ a {
   background-color: #555; /* Color of the thumb on hover */
 }
 
+#logo {
+	  height: calc(var(--logo-height) * 0.8);
+/*	  margin-left: 20px;*/
+	}
+
 footer {
 	height: 15vh;
 	background-color: var(--nav-reg-color);
